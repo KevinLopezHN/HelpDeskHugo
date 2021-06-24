@@ -14,7 +14,6 @@ import { COMETCHAT_CONSTANTS } from './consts';
 
 import reducer from './store/reducer';
 
-import './index.scss';
 
 const store = createStore(reducer, compose(
   applyMiddleware(thunk)
